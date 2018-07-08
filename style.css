@@ -42,3 +42,9 @@ p {
 footer {
 	height: 50px;
 }
+.naglowek1 {
+	font-size: 1.3rem;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #F00; 
+}
