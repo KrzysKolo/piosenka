@@ -1,16 +1,37 @@
 {
   "name": "projekt2",
   "version": "1.0.0",
-  "description": "",
+  "description": "<a href=\"https://krzyskolo.github.io/piosenka/\">DEMO</a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.24.5"
-  }
+    "browser-sync": "^2.24.5",
+    "nu-html-checker": "^0.1.0"
+  },
+  "dependencies": {
+    "globstar": "^1.0.0",
+    "inherits": "^2.0.3",
+    "has-ansi": "^2.0.0",
+    "graceful-fs": "^4.1.11",
+    "fsevents": "^1.2.4",
+    "minimatch": "^3.0.4",
+    "nan": "^2.10.0",
+    "strip-ansi": "^3.0.1",
+    "path-is-absolute": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrzysKolo/piosenka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KrzysKolo/piosenka/issues"
+  },
+  "homepage": "https://github.com/KrzysKolo/piosenka#readme"
 }
