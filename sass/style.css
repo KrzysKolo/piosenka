@@ -49,3 +49,6 @@ footer {
 	font-weight: bold;
 	text-shadow: #099 2px -2px 2px;
 }
+.gradient-prefix {
+	background: linear-gradient(to bottom, white, black);
+}
