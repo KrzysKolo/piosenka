@@ -1,2 +1,2 @@
 autoprefixer-cli -o main.prefixed.css main.css
-nmp nu-html-checker -h
+node_modules/.bin/nu-html-checker *.html
